@@ -7,141 +7,177 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
-  <body>
-    <header>
-      <a><img src="img/logo.png" width="138" height="70" alt="Лого"></a>
-      <nav>
+  <body class="page-body">
+    <div class="body-body">
+      <header class="main-header">
 
-        <ul>
-          <li><a href="">Информация</a></li>
-          <li><a href="">Фото и видео</a></li>
-          <li><a href="">Карта штата</a></li>
-          <li><a href="">Гостинницы</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>SEDONA</h1>
-      <img src="img/fon welcome.jpg" width="1200" height="509" alt="фон">
-      <img src="img/welcome.png" width="456,65" height="350,88" alt="Лого">
-      <section><p>Седона-Небольшой городок в Аризоне,<br>заслуживающий большего!</p><p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p></section>
-      <section>
-        <h2 class="visually-hidden">Причины</h2>
-        <h3>Настоящий городок</h3>
-        <h4>№1</h4>
-        <p>Седона - не аттракцион для туристов, там<br>течет своя жизнь</p>
-        <img src="img/image1.jpg" width="800" height="256" alt="1">
-      </section>
-      <section>
-        <h2 class="visually-hidden">Особенности</h2>
-        <ul>
-          <li>
-            <img src="img/icon-1.svg" width="75" height="72" alt="house">
-            <h3>Жилье</h3>
-            <p>Рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>
-          </li>
-          <li>
-            <img src="img/icon-3.svg" width="64" height="77" alt="surprize">
-            <h3>Еда</h3>
-            <p>Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
-          </li>
-          <li>
-            <img src="img/icon-2.svg" width="75" height="70" alt="eat">
-            <h3>Сувениры</h3>
-            <p>Не только китайского, но и местного<br>производства!</p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="visually-hidden">Причины</h2>
-        <h3>Там есть<br>мост дьявола!</h3>
-        <h4>№2</h4>
-        <p>Да, но по нему можно пройти! Если конечно<br>вы осмелитесь</p>
-        <img src="img/image2.jpg" width="800" height="256" alt="2">
-      </section>
-      <section>
-        <h2 class="visually-hidden">Причины</h2>
-        <ul>
-          <li>
-            <h3>Небольшая<br>площадь</h3>
-            <h4>№3</h4>
-            <p>Все достопримечательности<br>находятся очень близко</p>
-          </li>
-          <li>
-            <h3>Красивая<br>дорога</h3>
-            <h4>№4</h4>
-            <p>Ехать в одну сторону из Лас-Вегаса совсем<br>не скучно!</p>
-          </li>
-          <li>
-            <h3>Мало<br>туристов</h3>
-            <h4>№5</h4>
-            <p>Большинство едет в Гранд Каньон<br>и толпится там</p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="visually-hidden">Интерес</h2>
-        <p>Заинтересовались?</p>
-        <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      </section>
-      <section>
-        <h2 class="visually-hidden">Поиск гостиниц</h2>
-          <h3>Поиск гостиницы в Седоне</h3>
-          <form action="http://echo.htmlacademy.ru" method="post">
-            <p>
-              <label for="appointment-date">ДАТА ЗАЕЗДА:</label>
-              <input id="appointment-date" type="text" name="date" placeholder="24 АПРЕЛЯ 2017">
-            </p>
-            <p>
-              <label for="appointment-date">ДАТА ВЫЕЗДА:</label>
-              <input id="appointment-date" type="text" name="date" placeholder="4 ИЮЛЯ 2017">
-            </p>
-            <p>
-              <label for="appointment-date">ВЗРОСЛЫХ:</label>
-              <input id="appointment-date" type="text" name="number" placeholder="2">
-            </p>
-            <p>
-              <label for="appointment-date">ДЕТИ:</label>
-              <input id="appointment-date" type="text" name="number" placeholder="0">
-            </p>
-            <button type="submit">НАЙТИ</button>
-          </form>
-      </section>
-      <img src="img/map.png" width="1199" height="594" alt="1">
-    </main>
-    <footer>
-      <section>
-        <h2 class="visually-hidden">Телефон</h2>
-        <p>#VISITSEDONA</p>
-        <p>ТЕЛ:+7(495)000-01-00</p>
-      </section>
-      <section>
-        <h2 class="visually-hidden">Соц сети</h2>
-        <p>#VISITSEDONA</p>
-        <p>ТЕЛ:+7(495)000-01-00</p>
-      </section>
-      <section>
-        <h2>Сайт</h2>
-        <ul>
-          <li>
-            <img src="img/tw.svg" width="46" height="48" alt="twitter">
-            <a href="#">Твиттер</a>
-          </li>
-          <li>
-            <img src="img/fb.svg" width="46" height="48" alt="facebook">
-            <a href="#">Фейсбук</a>
-          </li>
-          <li>
-            <img src="img/yt.svg" width="46" height="48" alt="youtube">
-            <a href="#">Ютьюб</a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="visually-hidden">Разработано</h2>
-        <p>bojenka</p>
-      </section>
-    </footer>
+          <nav class="main-navigation">
+
+            <div class="main-navigation-wrapper">
+              <div class="container">
+
+                <ul class="site-navigation">
+
+                  <li class="site-link"><a href="">Информация</a></li>
+                  <li class="site-link"><a href="">Фото и видео</a></li>
+                  <li class="site-link"><img src="img/logo.png" width="138" height="70" alt="Лого"></li>
+                  <li class="site-link"><a href="">Карта штата</a></li>
+                  <li class="site-link"><a href="catalog.html">Гостинницы</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+      </header>
+
+      <main class="container">
+        <h1 class="visually-hidden">SEDONA</h1>
+        <div class="main-image">
+          <img src="img/welcome.png" width="456" height="351" alt="Лого">
+        </div>
+        <section class="description">
+          <p class="description-header">Седона-Небольшой городок в Аризоне,<br>заслуживающий большего!</p>
+          <p class="description-text">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+        </section>
+
+        <div class="about">
+          <section class="feature">
+            <h2 class="visually-hidden">Причины</h2>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <h3>Настоящий городок</h3>
+                <h4>- №1 -</h4>
+                <p class="feature-text">Седона - не аттракцион для туристов, там<br>течет своя жизнь</p>
+              </li>
+              <li class="feature-image">
+                <img src="img/image1.jpg" width="800" height="256" alt="1!!!">
+              </li>
+            </ul>
+          </section>
+          <section class="features">
+            <h2 class="visually-hidden">Особенности</h2>
+            <ul class="features-list">
+              <li class="features-item">
+                <img src="img/icon-1.svg" width="75" height="72" alt="house">
+                <h3>Жилье</h3>
+                <p class="features-text">Рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>
+              </li>
+              <li class="features-item">
+                <img src="img/icon-3.svg" width="75" height="70" alt="surprize">
+                <h3>Еда</h3>
+                <p class="features-text">Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
+              </li>
+              <li class="features-item">
+                <img src="img/icon-2.svg" width="64" height="77" alt="eat">
+                <h3>Сувениры</h3>
+                <p class="features-text">Не только китайского, но и местного<br>производства!</p>
+              </li>
+            </ul>
+          </section>
+          <section class="feature">
+            <h2 class="visually-hidden">Причины</h2>
+            <ul class="feature-list">
+              <li class="feature-image">
+                <img src="img/image2.jpg" width="800" height="256" alt="2!!!">
+              </li>
+              <li class="feature-item">
+                <h3>Там есть<br>мост дьявола!</h3>
+                <h4>- №2 -</h4>
+                <p class="feature-text">Да, но по нему можно пройти! Если конечно<br>вы осмелитесь</p>
+              </li>
+            </ul>
+          </section>
+          <section class="featuress">
+            <h2 class="visually-hidden">Причины</h2>
+            <ul class="featuress-list">
+              <li class="featuress-item">
+                <h3>Небольшая<br>площадь</h3>
+                <h4>- №3 -</h4>
+                <p class="featuress-text">Все достопримечательности<br>находятся очень близко</p>
+              </li>
+              <li class="featuress-item">
+                <h3>Красивая<br>дорога</h3>
+                <h4>- №4 -</h4>
+                <p class="featuress-text">Ехать в одну сторону из Лас-Вегаса совсем<br>не скучно!</p>
+              </li>
+              <li class="featuress-item">
+                <h3>Мало<br>туристов</h3>
+                <h4>- №5 -</h4>
+                <p class="featuress-text">Большинство едет в Гранд Каньон<br>и толпится там</p>
+              </li>
+            </ul>
+          </section>
+
+        </div>
+        <div class="bron">
+          <section class="interest">
+            <div class="words">
+              <h2 class="visually-hidden">Интерес</h2>
+              <p class="words-heading">Заинтересовались?</p>
+              <p class="words-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в<br>седоне</p>
+            </div>
+            <div class="interest-found"><p class="interest-start">Поиск гостиницы в Седоне</p></div>
+          </section>
+          <section class="appointment">
+              <form class="appointment-form" action="http://echo.htmlacademy.ru" method="post">
+                <p class="appointment-go">
+                  <label for="appointment-date">ДАТА ЗАЕЗДА:</label>
+                  <input id="appointment-date" type="text" name="date" placeholder="24 АПРЕЛЯ 2017">
+                </p>
+                <p class="appointment-out">
+                  <label for="appointment-date">ДАТА ВЫЕЗДА:</label>
+                  <input id="appointment-date" type="text" name="date" placeholder="4 ИЮЛЯ 2017">
+                </p>
+                <p class="appointment-people">
+                  <label for="appointment-date">ВЗРОСЛЫЕ:</label>
+                  <input id="appointment-date" type="text" name="number" placeholder="2">
+                </p>
+                <p class="appointment-kid">
+                  <label for="appointment-date">ДЕТИ:</label>
+                  <input id="appointment-date" type="text" name="number" placeholder="0">
+                </p>
+                <button class="button" type="submit">НАЙТИ</button>
+              </form>
+          </section>
+
+        </div>
+      </main>
+
+      <footer class="main-footer">
+        <div class="container">
+          <section class="footer-contacts">
+            <h2 class="visually-hidden">Телефон</h2>
+            <p>#VISITSEDONA</p>
+            <p>ТЕЛ:+7(495)000-01-00</p>
+          </section>
+
+          <section class="footer-social">
+            <h2 class="visually-hidden">Соц сети</h2>
+            <ul class="index-columns-item">
+              <li>
+                <img src="img/tw.svg" width="46" height="48" alt="twitter">
+                <a class="social-button" href="#"><span class="visually-hidden">Твиттер</span></a>
+              </li>
+              <li>
+                <img src="img/fb.svg" width="46" height="48" alt="facebook">
+                 <a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></a>
+              </li>
+              <li>
+                <img src="img/yt.svg" width="46" height="48" alt="youtube">
+                 <a class="social-button" href="#"><span class="visually-hidden">Ютьюб</span></a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer-end">
+            <h2 class="visually-hidden">Разработано</h2>
+            <p>bojenka</p>
+          </section>
+         </div>
+      </footer>
+    </div>
   </body>
 </html>

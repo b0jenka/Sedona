@@ -1,0 +1,7 @@
+
+@font-face {
+  font-family: 'pt_sans';
+  src: url('ptsans.woff2') format('woff2'),url ('ptsans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
